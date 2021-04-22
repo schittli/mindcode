@@ -54,7 +54,7 @@ export JDBC_DATABASE_URL='jdbc:postgresql://localhost/mindcode_development?user=
 Then run:
 
 ```sh
-mvn clean compile exec:java
+bin/run-local
 ```
 
 The Mindcode UI will now be running on localhost, port 8080. Visit http://localhost:8080/ to interact with it.
